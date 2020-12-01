@@ -1,3 +1,37 @@
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Setting file
+.settings
+
+# Bin file
+bin/
+
+# Compiled class file
+*.class
+.classpath
+.project
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
 _site
 .sass-cache
 .jekyll-metadata
