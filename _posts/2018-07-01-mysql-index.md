@@ -4,7 +4,7 @@ layout: post
 title:  "Mysql索引探索"
 date:   2018-07-01 02:00:00 +0800
 categories: posts
-tags: ['database']
+tags: ['数据库']
 author: jasonlu
 ---
 

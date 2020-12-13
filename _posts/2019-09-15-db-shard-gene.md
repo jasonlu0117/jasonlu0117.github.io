@@ -2,9 +2,9 @@
 bg: "tools.jpg"
 layout: post
 title:  "分库基因生成示例"
-date:   2019-11-12 02:00:00 +0800
+date:   2019-09-15 02:00:00 +0800
 categories: posts
-tags: ['demo']
+tags: ['示例']
 author: jasonlu
 ---
 
