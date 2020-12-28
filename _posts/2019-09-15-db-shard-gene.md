@@ -4,7 +4,7 @@ layout: post
 title:  "分库基因生成示例"
 date:   2019-09-15 02:00:00 +0800
 categories: posts
-tags: ['示例']
+tags: ['分库分表']
 author: jasonlu
 ---
 
