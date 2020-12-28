@@ -14,10 +14,10 @@ summary: "keep studying"
 <!--{% endfor %}-->
 
 {% for post in site.posts %}
+{% if post.stickie != true %}
+{% continue %}
+{% endif %}
 <article class="index-page">
-  {% if post.stickie != true %}
-  {% continue %}
-  {% endif %}
   <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
   {{ post.excerpt }}
 </article>
