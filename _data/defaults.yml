@@ -1,6 +1,6 @@
 home:
   heading: "凌晨两点"
-  subheading: "通常在凌晨两点发布文章"
+  subheading: "Jason Lu's Tech Blog"
   banner:
     video: ../assets/videos/bg_video.mp4
     loop: true
