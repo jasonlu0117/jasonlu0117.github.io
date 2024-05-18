@@ -17,9 +17,9 @@
       {%- assign default_paths = site.pages | where: "dir", "/" | map: "path" -%}
       {%- assign page_paths = site.header_pages | default: default_paths -%}
 
-      <span class="site-brand">
+      <!-- <span class="site-brand">
         {%- include views/site-brand.html -%}
-      </span>
+      </span> -->
 
       {%- if page_paths -%}
         <nav class="site-nav">
