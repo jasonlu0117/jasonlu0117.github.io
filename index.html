@@ -1,31 +1,8 @@
 ---
-bg: "rails.jpg"
-layout: default
-crawlertitle: "jasonlu blog"
-title: "凌晨两点"
-summary: "keep studying"
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+title: Home
+banner: "/assets/images/banners/home.jpeg"
 ---
-
-<!--{% for post in site.posts reversed limit: 5 %}-->
-<!--  <article class="index-page">-->
-<!--    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>-->
-<!--    {{ post.excerpt }}-->
-<!--  </article>-->
-<!--{% endfor %}-->
-
-{% for post in site.posts %}
-{% if post.stickie != true %}
-{% continue %}
-{% endif %}
-<article class="index-page">
-  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-  {{ post.excerpt }}
-</article>
-{% endfor %}
-
-{% for post in site.posts reversed limit: 5 %}
-<article class="index-page">
-  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-  {{ post.excerpt }}
-</article>
-{% endfor %}
